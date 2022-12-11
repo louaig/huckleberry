@@ -1,12 +1,60 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 12px;
 }
 
 /* Add styles here! */
+
+.title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  letter-spacing: -0.005em;
+}
+
+strong {
+  color: #009966;
+}
+
+.intro-chunk > p {
+  max-width: 401px;
+}
+
+.indented-heading {
+  background: #ffbf00;
+  width: fit-content;
+  padding: 16px 32px;
+  margin-inline-start: -32px;
+  border-bottom: #cc9900 8px solid;
+}
+
+.indented-heading::after {
+  color: red;
+}
+
+.card-delimiter {
+  width: auto;
+  height: 72px;
+  border-top: #999999 8px solid;
+  background-color: #666666;
+  margin-inline-start: -32px;
+  margin-inline-end: -32px;
+}
